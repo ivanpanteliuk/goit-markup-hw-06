@@ -424,24 +424,26 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <label class="subscribe-label">
-            <span class="subscribe-text">Підпишіться на розсилку</span>
+        <div class="subscribe-container">
+          <p class="subscribe-text">Підпишіться на розсилку</p>
+          <form class="subscribe-form">
+            <label class="visually-hidden" for="footer-subscribe"> Email </label>
             <input
+              id="footer-subscribe"
               class="subscribe-input"
               type="email"
               name="subscribe-email"
               placeholder="E-mail"
             />
-          </label>
 
-          <button class="subscribe-button button primary" type="submit">
-            Підписатися
-            <svg class="subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
+            <button class="subscribe-button button primary" type="submit">
+              Підписатися
+              <svg class="subscribe-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>

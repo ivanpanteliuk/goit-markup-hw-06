@@ -609,12 +609,6 @@ img {
   background-color: var(--accent-color);
 }
 
-.subscribe-form {
-  display: flex;
-  gap: 12px;
-  align-items: flex-end;
-}
-
 .subscribe-text {
   display: block;
   margin-bottom: 20px;
@@ -622,6 +616,12 @@ img {
   text-transform: uppercase;
   font-weight: 700;
   color: var(--primary-white-color);
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
 }
 
 .subscribe-input {
@@ -648,10 +648,9 @@ img {
 .subscribe-button {
   display: flex;
   align-items: center;
-  max-height: 50px;
 }
 
-.subscribe-icon {
+.subscribe-button-icon {
   margin-left: 10px;
   fill: var(--primary-white-color);
 }
